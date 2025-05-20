@@ -6,7 +6,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace API.Controllers;
 
+
 //this lets it to know look in the body of the requests(automatic model binding) as well as other things
+//
 [ApiController]
 //this says the route should be the name of the controller minus the word controller so in this case Products
 [Route("api/[controller]")]
